@@ -1,0 +1,5 @@
+<h2>List with info</h2>
+
+<button (click)="show=!show">SHOW</button>
+
+<app-list-item *ngIf="show" [listItem]=" usersList "></app-list-item>
